@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33370" started-at="2018-01-16T23:35:38Z" finished-at="2018-01-16T23:36:11Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="33370" started-at="2018-01-16T23:35:38Z" finished-at="2018-01-16T23:36:11Z">
+      <class name="com.tecnosoft.training.first.maven.testNG.TestUrlFirefox">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlFirefox@68837a77]" name="initializeWebDriver" is-config="true" duration-ms="5491" started-at="2018-01-16T18:36:04Z" finished-at="2018-01-16T18:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="testUrl()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlFirefox@68837a77]" name="testUrl" duration-ms="14" started-at="2018-01-16T18:36:09Z" finished-at="2018-01-16T18:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUrl -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlFirefox@68837a77]" name="quiteWebDriver" is-config="true" duration-ms="245" started-at="2018-01-16T18:36:09Z" finished-at="2018-01-16T18:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestUrlFirefox -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestTitleFirefox">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleFirefox@614c5515]" name="initializeWebDriver" is-config="true" duration-ms="5247" started-at="2018-01-16T18:35:54Z" finished-at="2018-01-16T18:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="testID()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleFirefox@614c5515]" name="testID" duration-ms="16" started-at="2018-01-16T18:35:59Z" finished-at="2018-01-16T18:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testID -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleFirefox@614c5515]" name="quiteWebDriver" is-config="true" duration-ms="286" started-at="2018-01-16T18:35:59Z" finished-at="2018-01-16T18:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestTitleFirefox -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestIncorrectLogIn">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestIncorrectLogIn@4cb2c100]" name="initializeWebDriver" is-config="true" duration-ms="1994" started-at="2018-01-16T18:35:42Z" finished-at="2018-01-16T18:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="incorrectLogIn()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestIncorrectLogIn@4cb2c100]" name="incorrectLogIn" duration-ms="7623" started-at="2018-01-16T18:35:44Z" finished-at="2018-01-16T18:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLogIn -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestIncorrectLogIn@4cb2c100]" name="quiteWebDriver" is-config="true" duration-ms="81" started-at="2018-01-16T18:35:51Z" finished-at="2018-01-16T18:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestIncorrectLogIn -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestEmptyLogIn">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestEmptyLogIn@3f2a3a5]" name="initializeWebDriver" is-config="true" duration-ms="2821" started-at="2018-01-16T18:35:38Z" finished-at="2018-01-16T18:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="checkEmptyLogIn()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestEmptyLogIn@3f2a3a5]" name="checkEmptyLogIn" duration-ms="1058" started-at="2018-01-16T18:35:41Z" finished-at="2018-01-16T18:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmptyLogIn -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestEmptyLogIn@3f2a3a5]" name="quiteWebDriver" is-config="true" duration-ms="78" started-at="2018-01-16T18:35:42Z" finished-at="2018-01-16T18:35:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestEmptyLogIn -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestUrlSafari">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlSafari@6be46e8f]" name="initializeWebDriver" is-config="true" duration-ms="1900" started-at="2018-01-16T18:36:09Z" finished-at="2018-01-16T18:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="testUrl()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlSafari@6be46e8f]" name="testUrl" duration-ms="6" started-at="2018-01-16T18:36:11Z" finished-at="2018-01-16T18:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUrl -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlSafari@6be46e8f]" name="quiteWebDriver" is-config="true" duration-ms="68" started-at="2018-01-16T18:36:11Z" finished-at="2018-01-16T18:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestUrlSafari -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestTitleSafari">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleSafari@77b52d12]" name="initializeWebDriver" is-config="true" duration-ms="2013" started-at="2018-01-16T18:35:59Z" finished-at="2018-01-16T18:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="testID()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleSafari@77b52d12]" name="testID" duration-ms="165" started-at="2018-01-16T18:36:01Z" finished-at="2018-01-16T18:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testID -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleSafari@77b52d12]" name="quiteWebDriver" is-config="true" duration-ms="67" started-at="2018-01-16T18:36:01Z" finished-at="2018-01-16T18:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestTitleSafari -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestTitleChrome">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleChrome@6fb554cc]" name="initializeWebDriver" is-config="true" duration-ms="1864" started-at="2018-01-16T18:35:52Z" finished-at="2018-01-16T18:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="testID()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleChrome@6fb554cc]" name="testID" duration-ms="13" started-at="2018-01-16T18:35:53Z" finished-at="2018-01-16T18:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testID -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestTitleChrome@6fb554cc]" name="quiteWebDriver" is-config="true" duration-ms="76" started-at="2018-01-16T18:35:53Z" finished-at="2018-01-16T18:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestTitleChrome -->
+      <class name="com.tecnosoft.training.first.maven.testNG.TestUrlChrome">
+        <test-method status="PASS" signature="initializeWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlChrome@2d554825]" name="initializeWebDriver" is-config="true" duration-ms="2132" started-at="2018-01-16T18:36:01Z" finished-at="2018-01-16T18:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method status="PASS" signature="testUrl()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlChrome@2d554825]" name="testUrl" duration-ms="8" started-at="2018-01-16T18:36:03Z" finished-at="2018-01-16T18:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUrl -->
+        <test-method status="PASS" signature="quiteWebDriver()[pri:0, instance:com.tecnosoft.training.first.maven.testNG.TestUrlChrome@2d554825]" name="quiteWebDriver" is-config="true" duration-ms="78" started-at="2018-01-16T18:36:03Z" finished-at="2018-01-16T18:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteWebDriver -->
+      </class> <!-- com.tecnosoft.training.first.maven.testNG.TestUrlChrome -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
