@@ -1,10 +1,11 @@
 package com.tecnosoft.training.first.maven.testNG;
 
+import configuration.DriverWrapper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class TestTitleChrome extends DriverWrapper{
+public class TestTitleChrome extends DriverWrapper {
 
 
 

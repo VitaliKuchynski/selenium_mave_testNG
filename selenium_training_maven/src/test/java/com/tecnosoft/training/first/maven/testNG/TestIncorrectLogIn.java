@@ -1,11 +1,12 @@
 package com.tecnosoft.training.first.maven.testNG;
 
 
+import configuration.DriverWrapper;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestIncorrectLogIn extends DriverWrapper{
+public class TestIncorrectLogIn extends DriverWrapper {
 
     @Test
     //Checks LogIn with incorrect credentials
