@@ -1,4 +1,4 @@
-package com.tecnosoft.training.first.maven.testNG;
+package com.technosoft.training.maven_testNG;
 
 import configuration.DriverWrapper;
 import org.openqa.selenium.By;

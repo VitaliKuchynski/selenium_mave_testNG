@@ -1,4 +1,4 @@
-package com.tecnosoft.training.first.maven.testNG;
+package com.technosoft.training.maven_testNG;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;

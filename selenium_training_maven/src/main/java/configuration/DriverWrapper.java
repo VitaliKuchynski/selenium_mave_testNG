@@ -37,7 +37,7 @@ public class DriverWrapper {
     public void initializeWebDriver(){
         //assigns chrome driver to variable
         driver = new ChromeDriver();
-        driver.navigate().to(mouseOverUrl);
+        driver.navigate().to("https://darksky.net/forecast/40.7127,-74.0059/us12/en");
     }
 
     @AfterClass

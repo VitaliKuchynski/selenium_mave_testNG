@@ -1,7 +1,7 @@
 package com.technosoft.training.expedia;
 
 
-import com.technosoft.training.page.object.pattern.facebook.CreateNewAccountPage;
+import com.technosoft.training.page_object_pattern_facebook.CreateNewAccountPage;
 import configuration.DriverWrapper;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;

@@ -1,10 +1,11 @@
-package com.tecnosoft.training.first.maven.testNG;
+package com.technosoft.training.maven_testNG;
+
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+public class TestTitleFirefox extends DriverWrapperFF{
 
-public class TestTitleSafari  extends DriverWrapperSafari{
 
     @Test
     //Check titleID of the page
@@ -13,5 +14,4 @@ public class TestTitleSafari  extends DriverWrapperSafari{
         Assert.assertEquals(currentTitleID, getExpectedTitle(),"Invalid Page Title ID");
 
     }
-
 }

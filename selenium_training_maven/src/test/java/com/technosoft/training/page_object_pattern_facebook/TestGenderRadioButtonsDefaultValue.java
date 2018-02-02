@@ -1,4 +1,4 @@
-package com.technosoft.training.page.object.pattern.facebook;
+package com.technosoft.training.page_object_pattern_facebook;
 
 import configuration.DriverWrapper;
 import org.testng.Assert;

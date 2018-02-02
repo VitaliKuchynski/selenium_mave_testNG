@@ -1,10 +1,12 @@
-package com.tecnosoft.training.first.maven.testNG;
+package com.technosoft.training.maven_testNG;
 
-
+import configuration.DriverWrapper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestTitleFirefox extends DriverWrapperFF{
+
+public class TestTitleChrome extends DriverWrapper {
+
 
 
     @Test

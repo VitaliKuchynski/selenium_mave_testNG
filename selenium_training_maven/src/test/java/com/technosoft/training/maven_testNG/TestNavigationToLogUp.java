@@ -1,8 +1,8 @@
-package com.tecnosoft.training.first.maven.testNG;
+package com.technosoft.training.maven_testNG;
 
 
 import configuration.DriverWrapper;
-import com.technosoft.training.page.object.pattern.facebook.LogInPage;
+import com.technosoft.training.page_object_pattern_facebook.LogInPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
