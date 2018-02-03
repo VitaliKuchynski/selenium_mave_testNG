@@ -32,6 +32,8 @@ public class CompareTimeLines extends DriverWrapper {
 
         //Gets actual time line
         List<WebElement> list = getDriver().findElements(By.xpath(".//span[@class=\"hour\"]/descendant::*"));
+        actualTimeList.add(0, getDriver().findElement(By.xpath(".//span[@class=\"hour first\"]/descendant::span[position()=1]")).getText().toUpperCase());
+        expectedTimeList.add(0,"NOW");
         //Goes through all of gotten elements and adds value to actual and expected time-line collections
         for (WebElement timeList : list){
             //Adds value to actual result collection
@@ -45,7 +47,7 @@ public class CompareTimeLines extends DriverWrapper {
         }
 
         //Verify that time lines are equals
-        Assert.assertEquals(actualTimeList,expectedTimeList);
+       Assert.assertEquals(actualTimeList,expectedTimeList);
         //Prints result to visual view
         System.out.println(actualTimeList);
         System.out.println(expectedTimeList);
